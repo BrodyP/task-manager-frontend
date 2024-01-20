@@ -1,0 +1,36 @@
+.card {
+    background-color: #f8f9fa;
+    width: 95%;
+    padding: 1rem;
+
+    border-radius: 10px;
+    height: 9rem;
+
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+    transition: all 0.3s ease-in-out;
+}
+
+.time,
+.title {
+    font-size: 1.2rem;
+    color: #212529;
+    padding: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+
+
+}
+
+.card:hover {
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+}

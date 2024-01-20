@@ -1,0 +1,65 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.taskContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.taskLists{
+    width: 30rem;
+    height: 85vh;
+    
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+
+    color: #868e96;
+    
+    font-size: 1.2rem;
+
+    background-color: #EBECF0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.cards{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    
+    overflow-y: scroll;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+
+
+}
